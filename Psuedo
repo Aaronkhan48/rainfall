@@ -1,0 +1,26 @@
+import random and os and datetime
+
+main method():
+    fetch user name
+    display username
+    fetch date
+    display lab and date
+
+    create rainlist
+    create monthslist
+    create total, highest,lowest
+
+    ask user for name
+    iterate through monthslist using for loop
+        rainfall variable asking user to input rain fall for month
+        adding it to rainlist
+        adding it to total variable
+        if rainfall is lower than current lowest
+            lowest = rainfall
+        if rainfall is higher than current highest
+            highest = rainfall
+    average = total/12
+    display user name here are the results
+    display total, average, highest, and lowest rainfall.
+
+call main
